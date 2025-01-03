@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS.PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+    <style> 
+#sex{
+    padding-left: 30%;
+}
+#division{
+    background: rgb(159 159 159 / 71%);
+    border-color: black;
+    height: 500px;
+    width: 500px;
+    border-width: 5px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 25px 25px rgba(0, 0, 0, 0.563);
+    background-image: url(images/blackhome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    background-position: center;
+    background-position: 10%;
+}
+.label{
+    padding-left: 30%;
+    color:rgb(255, 255, 255);
+    text-shadow: 40%;
+    font-size: 15px;
+}
+.box{
+    border-width: 2px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    margin-left: 30%;
+    box-shadow: 50%;
+}
+#check{
+    margin-left: 45%;
+    color: white;
+}
+#submit{
+    border-width: 2px;
+    width: 200px;
+    background: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30%;
+    border-radius: 20px;
+  color: rgba(255, 255, 255, 0.878);
+  box-shadow: 05px 05px rgba(0, 0, 0, 0.844);
+}
+#submit:hover{
+    top: 3px;
+    left: 5px;
+    background: rgb(0, 0, 0);
+    transform: scale(1.5);
+    color: rgb(255, 255, 255);
+  cursor: pointer;
+transition:  0.3s, transform 0.9s;
+box-shadow: 02px 02px 05px rgb(227, 227, 227);
+}
+ #link{
+    background: black;
+    color: white;
+    margin-left: 30%;
+    border-radius:20px;
+ }
+ #submit{
+ background: white;
+    color: black;
+  cursor: pointer;
+transition:  0.3s, transform 0.9s;
+}
+#baloch{
+    animation: forwards;
+}
+    </style>
+</head>
+<body bgcolor="grey">
+    <div id="bg">
+    <header>
+        <nav>
+            <ul>
+                <div id="revision">
+                    <a href="home.html"><img src="images/brothers.png" height="100px" width="100px" alt=""></a>
+                 <li><strong><a class="menu" href="home.html">HOME</a></strong></li>
+                 <li><strong><a class="menu" href="about.html">ABOUTUS</a></strong></li>
+                 <li><strong><a class="menu" href="contact.html">CONTACTUS</a></strong></li>
+             </div>
+            </ul>
+        </nav>
+    </header>
+</div>
+<br> <br> <br> <br>
+<section id="sex">
+    <div id="division"> <br>
+    <form action="submit" id="login">
+        <h1 style="text-align: center; color: rgb(61, 56, 56);" >APPLY NOW</h1> <br>
+        <label class="label" for="name">NAME</label><br><input type="text" class="box"> <br> <br>
+        <label class="label" for="name">F.NAME</label><br><input type="text" class="box"> <br> <br>
+        <label class="label" for="name">E-MAIL</label><br><input type="email" class="box"><br> <br>
+        <label class="label" for="name">PHONE</label><br><input type="number" class="box"><br> <br>
+        <br><input type="checkbox" for="permission" id="check"><span style="font-size: 15px; color: white;">i acknowledge</span> <input type="checkbox"><span style="font-size: 15px; color: white;">yes,i know</span><br> <br> <br>
+        <input type="submit" id="submit">
+        </form>
+</div>
+    </section>
+</body>
+</html>
